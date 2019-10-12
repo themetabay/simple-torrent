@@ -1,5 +1,5 @@
 FROM alpine
-COPY --from=boypt/cloud-torrent / /
+COPY --from=boypt/cloud-torrent /usr/local/bin/cloud-torrent /usr/local/bin/cloud-torrent
 COPY --from=rayou/rclone / /
 COPY rclone.sh /usr/local/bin/rclone.sh
 RUN apk add --no-cache ca-certificates \
