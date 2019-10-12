@@ -1,0 +1,21 @@
+{
+  "AutoStart": true,
+  "EngineDebug": false,
+  "MuteEngineLog": false,
+  "ObfsPreferred": true,
+  "ObfsRequirePreferred": false,
+  "DisableTrackers": false,
+  "DisableIPv6": false,
+  "DownloadDirectory": "/downloads",
+  "WatchDirectory": "/torrents",
+  "EnableUpload": true,
+  "EnableSeeding": true,
+  "IncomingPort": 50007,
+  "SeedRatio": 0,
+  "DoneCmd": "/usr/local/bin/rclone.sh",
+  "UploadRate": "",
+  "DownloadRate": "",
+  "TrackerListURL": "",
+  "AlwaysAddTrackers": false,
+  "ProxyURL": ""
+}
