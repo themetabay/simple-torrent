@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/image/themetabay/simple-torrent.svg)](https://microbadger.com/images/themetabay/simple-torrent "Get your own image badge on microbadger.com")
+
 ## Quick example with docker volumes
 
 ```
