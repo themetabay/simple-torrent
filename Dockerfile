@@ -1,4 +1,7 @@
 FROM alpine
+LABEL org.label-schema.docker.dockerfile="/Dockerfile" \
+      org.label-schema.vcs-type="Git" \
+      org.label-schema.vcs-url="https://github.com/themetabay/simple-torrent"
 COPY --from=boypt/cloud-torrent /usr/local/bin/cloud-torrent /usr/local/bin/cloud-torrent
 COPY --from=rayou/rclone / /
 COPY rclone.sh /usr/local/bin/rclone.sh
